@@ -1,0 +1,27 @@
+[
+  {
+    "file_name": "kech102.pdf"
+  },
+  {
+    "file_name": "kech103.pdf",
+    "standard": "11",
+    "subject": "Chemistry",
+    "syllabus": "Cbse",
+    "chapter_number": "3",
+    "chapter_name": "Classification of Elements and Periodicity in Properties"
+  },
+  {
+    "file_name": "kech104.pdf",
+    "standard": "11",
+    "subject": "Chemistry",
+    "syllabus": "CBSE",
+    "chapter_number": "4",
+    "chapter_name": "CHEMICAL BONDING AND MOLECULAR STRUCTURE"
+  },
+  {
+    "file_name": "output.md"
+  },
+  {
+    "file_name": "surface.md"
+  }
+]
