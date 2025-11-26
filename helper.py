@@ -77,11 +77,14 @@ Generate 10 multiple-choice questions (4 options) based ONLY on the following te
 IMPORTANT GUIDELINES:
 1. Questions must be SELF-CONTAINED. Do not refer to "the text", "Example 1", "Figure 2", "this chapter", etc.
 2. If a question is based on a specific scenario in the text, describe the scenario fully in the question instead of referencing it by name/number.
-3. Ensure the explanation is also self-contained and does not say "As mentioned in the text...".
+3. Ensure the explanation is also self-contained and does not say "As mentioned in the text...,The texts states..." and should be detailed.
 4. **FORMATTING**:
     - Options should NOT have prefixes like "A)", "B)", etc. Just the option text.
     - The "answer" field must contain the FULL TEXT of the correct option, not just the letter.
 5. all the fields in the json are required.
+6. The questions must have different complexities (easy,medium,hard)
+7. The complexity should one of the following - eady , medium ,hard
+8. The options should be short and precise not long sentence 
 {text}
 
 Return a JSON array like this:
@@ -92,10 +95,12 @@ Return a JSON array like this:
     "answer": "Option text 2",
     "explanation": "...",
     "topic": "...",
-    "subject":"..."
+    "subject":"...",
+    "complexity":""
   }}
 ]
 """
+
     )
 
     chain = prompt | llm
